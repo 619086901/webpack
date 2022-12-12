@@ -1,0 +1,17 @@
+@import './main.scss';
+$body-color: red;
+
+body {
+  color: $body-color;
+  background: url('../img/fav.png') no-repeat;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+div {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  transform: rotate(130deg);
+}
